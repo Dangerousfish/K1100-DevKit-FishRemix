@@ -1,10 +1,4 @@
-I got sick of having so many tabs open, downloading different libraries, firmwares and failing miserably.
-
-I'm still miserable, but now I have a collection of files that I can revisit and I hope this helps you in some way too.
-
-- **Fish**
-
-The K1100 Awesome List & Guides
+**The K1100 Awesome List & Guides**
 
 Open Issues:
 ------------
@@ -21,24 +15,26 @@ Seeed Dashboards
 GitHub Links
 ------------
 
-<https://github.com/Seeed-Studio/SenseCraft>
+SenseCraft - <https://github.com/Seeed-Studio/SenseCraft>
 
-<https://github.com/disk91/Disk91_LoRaE5>
+Disk91_LoRaE5 - <https://github.com/disk91/Disk91_LoRaE5>
 
-<https://github.com/Dangerousfish/K1100-DevKit-FishRemix>
+This page - <https://github.com/Dangerousfish/K1100-DevKit-FishRemix>
 
-<https://github.com/topics/wioterminal>
+#WioTerminal - <https://github.com/topics/wioterminal>
 
-<https://github.com/search?q=helium>
+Github - "Helium" - <https://github.com/search?q=helium>
+
+ChirpStack - <https://github.com/mcci-catena/Chirpstack-Network-Server>
 
 Helium Dashboards
 -----------------
 
-<https://console.helium.com>
+Console - <https://console.helium.com>
 
-<https://explorer.helium.com>
+Explorer - <https://explorer.helium.com>
 
-<https://cargo.helium.com>
+Cargo - <https://cargo.helium.com>
 
 K1100 Sensor Code
 -----------------
