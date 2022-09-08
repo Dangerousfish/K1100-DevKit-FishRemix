@@ -48,44 +48,31 @@ https://github.com/maxgerhardt/platform-raspberrypi.git
 7.  Create a new project from within PlatformIO using the settings:
 
 ```
--  Platform: Raspberry Pi Pico
+    Platform: Raspberry Pi Pico
 
--  Board: pico
+    Board: pico
 
--  Framework: Arduino
+    Framework: Arduino
 ```
 
 8.  Save your edits and wait a few minutes for the project to load.
 
 9.  Once created, the platformio.ini should automatically open. When it does, delete the contents and replace them with this:
 
-```
 [env:pico]
-
-platform = https://github.com/maxgerhardt/platform-raspberrypi.git
-
-platform_packages = https://github.com/maxgerhardt/platform-raspberrypi.git
-
-board = seeed_xiao_rp2040
-
-framework = arduino
-
-board_build.core = earlephilhower
-
-lib_deps =
-
+: platform = https://github.com/maxgerhardt/platform-raspberrypi.git
+: platform_packages = https://github.com/maxgerhardt/platform-raspberrypi.git
+: board = seeed_xiao_rp2040
+: framework = arduino
+: board_build.core = earlephilhower
+: lib_deps =
    <https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5> #Wio-E5
-
    <https://github.com/knolleary/pubsubclient> #MQTT
-
    <https://github.com/Seeed-Studio/Arduino_Software_I2C> #Grove Port
-
    SPI
-
    Wire
-
    SoftwareSerial
-```
+
 
 10.  Save your edits and close the platformio.ini file
 
