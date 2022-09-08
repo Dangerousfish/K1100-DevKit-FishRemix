@@ -47,17 +47,17 @@ https://github.com/maxgerhardt/platform-raspberrypi.git
 
 7.  Create a new project from within PlatformIO using the settings:
 
--  Platform: Raspberry Pi Pico
+`-  Platform: Raspberry Pi Pico
 
 -  Board: pico
 
--  Framework: Arduino
+-  Framework: Arduino`
 
 8.  Save your edits and wait a few minutes for the project to load.
 
 9.  Once created, the platformio.ini should automatically open. When it does, delete the contents and replace them with this:
 
-[env:pico]
+`[env:pico]
 
 platform = https://github.com/maxgerhardt/platform-raspberrypi.git
 
@@ -81,7 +81,7 @@ lib_deps =
 
    Wire
 
-   SoftwareSerial
+   SoftwareSerial`
 
 10.  Save your edits and close the platformio.ini file
 
