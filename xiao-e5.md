@@ -43,19 +43,19 @@ Setting up your board and platform
 
 https://github.com/maxgerhardt/platform-raspberrypi.git
 
-1.  Still within platforms, install the "Linux x86_64" platform.
+6.  Still within platforms, install the "Linux x86_64" platform.
 
-2.  Create a new project from within PlatformIO using the settings:
+7.  Create a new project from within PlatformIO using the settings:
 
-1.  Platform: Raspberry Pi Pico ("Pico" if using the Xiao, "Pico W" if using a wireless Pico)
+-  Platform: Raspberry Pi Pico
 
-2.  Board: pico
+-  Board: pico
 
-3.  Framework: Arduino
+-  Framework: Arduino
 
-4.  Save your edits and wait a few minutes for the project to load.
+8.  Save your edits and wait a few minutes for the project to load.
 
-1.  Once created, the platformio.ini should automatically open. When it does, delete the contents and replace them with this:
+9.  Once created, the platformio.ini should automatically open. When it does, delete the contents and replace them with this:
 
 [env:pico]
 
@@ -83,10 +83,10 @@ lib_deps =
 
    SoftwareSerial
 
-1.  Save your edits and close the platformio.ini file
+10.  Save your edits and close the platformio.ini file
 
-2.  Using the PlatformIO Tools, build your project (This will take some time, it's downloading files for your firmware)
+11.  Using the PlatformIO Tools, build your project (This will take some time, it's downloading files for your firmware)
 
 THIS WILL TAKE SOME TIME - GO AND MAKE A COFFEE
 
-1.  Once the build has completed, you can now upload your project by placing your rp2040 in boot mode and pressing the upload button in PlatformIO.
+12.  Once the build has completed, you can now upload your project by placing your rp2040 in boot mode and pressing the upload button in PlatformIO.
