@@ -23,11 +23,15 @@ Raspberry Pi Pico (rp2040, xiao rp2040, pico-w)
 
 <https://thepihut.com/collections/featured-products/products/raspberry-pi-pico>
 
-Grove Wio-E5 - <https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/>
+Grove Wio-E5
+
+<https://wiki.seeedstudio.com/Grove_LoRa_E5_New_Version/>
 
 ### Software
 
-Visual Studio Code - <https://code.visualstudio.com/>
+Visual Studio Code
+
+<https://code.visualstudio.com/>
 
 Guide:
 ------
