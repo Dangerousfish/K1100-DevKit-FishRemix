@@ -59,20 +59,33 @@ https://github.com/maxgerhardt/platform-raspberrypi.git
 
 9.  Once created, the platformio.ini should automatically open. When it does, delete the contents and replace them with this:
 
+```
 [env:pico]
-: platform = https://github.com/maxgerhardt/platform-raspberrypi.git
-: platform_packages = https://github.com/maxgerhardt/platform-raspberrypi.git
-: board = seeed_xiao_rp2040
-: framework = arduino
-: board_build.core = earlephilhower
-: lib_deps =
-   <https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5> #Wio-E5
-   <https://github.com/knolleary/pubsubclient> #MQTT
-   <https://github.com/Seeed-Studio/Arduino_Software_I2C> #Grove Port
-   SPI
-   Wire
-   SoftwareSerial
 
+platform = https://github.com/maxgerhardt/platform-raspberrypi.git
+
+platform_packages = https://github.com/maxgerhardt/platform-raspberrypi.git
+
+board = seeed_xiao_rp2040
+
+framework = arduino
+
+board_build.core = earlephilhower
+
+lib_deps =
+
+   <https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5> #Wio-E5
+   
+   <https://github.com/knolleary/pubsubclient> #MQTT
+   
+   <https://github.com/Seeed-Studio/Arduino_Software_I2C> #Grove Port
+   
+   SPI
+   
+   Wire
+   
+   SoftwareSerial
+```
 
 10.  Save your edits and close the platformio.ini file
 
