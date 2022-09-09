@@ -71,8 +71,6 @@ https://github.com/maxgerhardt/platform-raspberrypi.git
 
 platform = https://github.com/maxgerhardt/platform-raspberrypi.git
 
-platform_packages = https://github.com/maxgerhardt/platform-raspberrypi.git
-
 board = seeed_xiao_rp2040
 
 framework = arduino
