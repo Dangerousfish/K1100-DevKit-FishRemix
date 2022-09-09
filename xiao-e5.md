@@ -98,4 +98,6 @@ lib_deps =
 
 THIS WILL TAKE SOME TIME - GO AND MAKE A COFFEE
 
-12.  Once the build has completed, you can now upload your project by placing your rp2040 in boot mode and pressing the upload button in PlatformIO.
+12.  Once the build has completed, you can now start to easily work on the files needed to write to your RP2040 along with the E5 Libraries necessary.
+
+13. Head on over to the issues page on this git, or submit edits to this documentation to help the cause.
