@@ -79,11 +79,11 @@ board_build.core = earlephilhower
 
 lib_deps =
 
-   <https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5> #Wio-E5
-   
-   <https://github.com/knolleary/pubsubclient> #MQTT
-   
-   <https://github.com/Seeed-Studio/Arduino_Software_I2C> #Grove Port
+   https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5 #Wio-E5
+   https://github.com/knolleary/pubsubclient #MQTT
+   https://github.com/Seeed-Studio/Arduino_Software_I2C #Grove Port
+   https://github.com/Seeed-Studio/Seeed_Arduino_FreeRTOS #k1100
+   https://github.com/Seeed-Studio/Seeed_Arduino_ooFreeRTOS
    
    SPI
    
