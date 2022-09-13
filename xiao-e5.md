@@ -78,18 +78,16 @@ framework = arduino
 board_build.core = earlephilhower
 
 lib_deps =
-
    https://github.com/Seeed-Studio/Seeed_Arduino_LoRaE5 #Wio-E5
    https://github.com/knolleary/pubsubclient #MQTT
    https://github.com/Seeed-Studio/Arduino_Software_I2C #Grove Port
    https://github.com/Seeed-Studio/Seeed_Arduino_FreeRTOS #k1100
    https://github.com/Seeed-Studio/Seeed_Arduino_ooFreeRTOS
-   
-   SPI
-   
-   Wire
-   
-   SoftwareSerial
+   https://github.com/LynnL4/Adafruit_TinyUSB_Arduino
+   adafruit/Adafruit Zero DMA Library
+   SPI
+   Wire
+   SoftwareSerial
 ```
 
 10.  Save your edits and close the platformio.ini file
